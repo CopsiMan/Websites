@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <button title="Watch a clip in 16:9 ratio" onclick="openWindow()">16:9</button>
+    <br>
+    <button onclick="openWindow21()">21:9</button>
+    <br>
+    <button onclick="openWindowAPI()">API</button>
+    <script>
+        function openWindow() {
+            var features = 'resizable=yes, location=no, width=400, height=250, menubar=no, status=no, titlebar=no';
+            var win = window.open('mini.html', '', features);
+        }
+        function openWindow21() {
+            var features = 'resizable=yes, location=no, width=420, height=300';
+            var win = window.open('mini21.9.html', '', features);
+        }
+        function openWindowAPI() {
+            var features = 'resizable=yes, location=no, width=480, height=270';
+            var win = window.open('apiTest.html', '', features);
+            win.moveTo(250, 250);
+            win.focus();
+        }
+    </script>
+</body>
+
+</html>

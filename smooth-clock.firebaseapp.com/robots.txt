@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clock</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        html {
+            cursor: none;
+        }
+
+        canvas {
+            border: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas></canvas>
+    <script src="clock.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

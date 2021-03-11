@@ -1,0 +1,37 @@
+button {
+    margin: 7px 0 7px 15px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 100ms;
+}
+button:hover {
+    background-color: #0090ff;
+    border: none;
+    transform: scale(1.2);
+    color: white;
+    box-shadow: none;
+}
+button:active {
+    background-color: rgba(51, 128, 179, 0.527);
+}
+input {
+    width: 250px;
+    height: 24px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 15px;
+    text-indent: 10px;
+    margin: 10px;
+}
+input:hover {
+    background-color: lightgrey;
+}
+body {
+    background-color: black;
+}
